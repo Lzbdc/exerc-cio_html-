@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de cadastro</title>
-</head>
-
-<body>
-    <form>
-     <label>Nome</label>
-    <input type="text" />
-<br />
-    <label>E-mail</label>
-    <input type="email" />
+    <body>
+<h1>Formulário de cadastro</h1>
+<form>
+    <label for="nome" >Nome</label>
+    <input id="nome" type="text" />
     <br />
-    <label>Senha</label>
-    <input type="tel" />
-    <section multiple>
-        <button>
+    <label for="email">E-mail</label>
+    <input id="email" type="email" />
+    <br/>
+    <label for="senha">senha</label>
+    <input id="senha" type="password" />
+    <br/>
+    <section>
+        <button type="submit">
             Cadastrar
         </button>
     </section>
+</form>
 </body>
 </html>
